@@ -1,0 +1,49 @@
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+ENV/
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Build directories
+dist/
+build/
+out/
+
+# Arduino / PlatformIO
+.pio/
+*.elf
+
+# Other
+*.bak
+*.tmp
+*.cache
+
+.streamlit
